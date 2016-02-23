@@ -6,15 +6,16 @@ exports.functionsAnswers = {
   },
 
   speak : function(fn, obj) {
-
+	
+	return fn.call(obj);
   },
 
   functionFunction : function(str) {
-
+	
   },
 
   makeClosures : function(arr, fn) {
-
+	
   },
 
   partial : function(fn, str1, str2) {
